@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens em tamanhos diferentes </title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>abra em lugar diferentes ou mude o tamanho do navegador<p>
+        <picture>
+            <source media="(max-width: 750px)" srcset="img/imagemP.png" type="image/png">
+            <source media="(max-width:1050px )" srcset="img/imagemMed.png" type="image/png">
+            <img src="img/imagem.png" alt="imagem flexivel">
+        </picture>
+        <hr>
+        <h1>audios</h1>
+            <audio preload="metadata" autoplay controls>
+                <source src="media/Good-Starts-Jingle Punks.mp3" type="audio/npeg">
+                <source src="media/Good-Starts-Jingle Punks.ogg" type="audio/ogg">
+                    <p>tu e um merda, e teu navegador n roda porra nenhuma <a href="media/Good-Starts-Jingle Punks.mp3">clique e baixe, animal</a></p>
+        </audio>
+    
+</body>
+</html>
