@@ -119,11 +119,15 @@ header{
 
 picture{
     width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    
 }
 
 .bugdroid{
     margin: auto;
-    display: block;
+    display: flex;
     max-width: 350px;
 }
 
@@ -173,9 +177,10 @@ h4{
 }
 
 
-li {
+ol {
     list-style: none; 
     columns: 2;
+    text-align: left;
   }
   
   li::before {
@@ -184,6 +189,7 @@ li {
     font-size: 1.5em; 
     margin-right: 0.5em;
     columns: 2;
+    text-align: left;
   }
 
   .text-extra   {
@@ -210,9 +216,9 @@ li {
   footer{
     background-color: #04381b;
     color: white;
-    padding: 10px;
-    border: 10px;
-    margin: 10px;   
+    padding: 11px;
+    border: 17px;
+    margin: -8px;
 
   }
 
@@ -233,5 +239,11 @@ li {
     
     
 
+  }
+
+  footer > p{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
   }
   
