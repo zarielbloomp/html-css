@@ -62,7 +62,27 @@ section{
 section.imagem p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01{
+    background-image: url(../DESAFIO-CORDEL/imagens/background001.jpg);
+    background-position: center center;
+    
+
+
+}
+
+section#img02{
+    background-image: url(../DESAFIO-CORDEL/imagens/background002.jpg);
+    background-position: right center;
+    
+
+}
+
+section p {
+    padding-bottom: 2em;
 }
 
 .normal{
@@ -73,6 +93,9 @@ section.imagem p {
 .imagem{
     background-color: rgb(32, 32, 32);
     color: white;
+    box-shadow: inset 6px 6px 13px 0 rgba(0, 0, 0, 0.541);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 footer{
@@ -82,5 +105,9 @@ footer{
     padding: 10px;
 
 
+}
+
+footer p{
+    font-size: 1em;
 }
 
