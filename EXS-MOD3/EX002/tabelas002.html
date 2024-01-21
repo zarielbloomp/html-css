@@ -20,19 +20,38 @@
             padding: 10px;
         }
 
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
         thead{
             background-color: gray;
             color: white;
+        }
+
+        .footera{
+            background-color: gray;
+            color: white;
+
+        }
+
+        .num{
+            text-align: right;
         }
     </style>
  
 </head>
 <body>
     <h1>Usos de tabelas G </h1>
+
+    <caption>População por Estado Brasileiro</caption>
     <table>
         <thead>
-            <th>Estado</th>
-            <th>População</th>
+            <th scope="col">Estado</th>
+            <th style="width: 50px;">População</th>
 
         </thead>
             
@@ -149,9 +168,9 @@
 
         </tbody>
 
-        <tfoot>
-            <th>Total de Habitantes</th>
-            <td>0000</td>
+        <tfoot class="footera">
+            <th scope="row">Total de Habitantes</th>
+            <td class="num"><strong>203 062 512</strong></td>
 
         </tfoot>
     </table>
