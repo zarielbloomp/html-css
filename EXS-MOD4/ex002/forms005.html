@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios5</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de Formulario5</h1>
+    <fieldset>
+        <legend>Sexo</legend>
+        <input type="radio" name="sx" id="isxmasc" value="M"><label for="isxmasc">Masculino</label>
+        <br>
+        <input type="radio" name="sx" id="isxfem" value="F"><label for="isxfem">Feminino</label>
+    </fieldset>
+    <fieldset>
+        <legend>Esportes Favoritos</legend>
+        <input type="checkbox" name="esfut" id="iesfut"><label for="iesfut">Futebol</label><br>
+
+        <input type="checkbox" name="esbasq" id="iesbasq"><label for="iesbasq">Basquete</label><br>
+
+        <input type="checkbox" name="esvolei" id="iesvolei"><label for="iesvolei">Vôlei</label><br>
+
+        <input type="checkbox" name="estenis" id="iestenis"><label for="iestenis">Tênis</label><br>
+
+
+
+
+    </fieldset>
+    <form action="cadrastro.php" method="get" autocomplete="on">
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+   
+</body>
+</html>
