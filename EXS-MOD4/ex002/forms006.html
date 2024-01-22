@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios6</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de Formulario5</h1>
+    <form action="cadrastro.php" method="get" autocomplete="off"></form>
+    <p>
+        <label for="icor">Cor: </label>
+        <input type="color" name="cor" id="icor">
+    </p>
+
+    <p>
+        <label for="inivel">Nivel De Satisfação: </label>
+        <input type="range" name="vivel" id="inivel" min="1" max="5" value="1">
+    </p>
+    <p>
+        <label for="ifoto">Poste sua foto: </label>
+        <input type="file" name="foto" id="ifoto">
+    </p>
+
+    <p>
+        <input type="submit" value="enviar">
+        <input type="reset" value="Limpar">
+    </p>
+
+   
+</body>
+</html>
