@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios 4 </title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá</h1>
+    <fieldset>
+        <legend>Dado</legend>
+        <form action="cadrastro.php" method="get" autocomplete="off">
+            <p><label for="iemail">Email:</label>
+                <input type="email" name="email" id="iemail" required autocomplete="email"></p>
+                <p>
+                    <label for="itell">Telefone</label>
+                    <input type="tel"  name="tel" id="itell">
+                </p>
+        
+            <p><input type="submit" value="Enviar">
+        
+                <input type="reset" value="Limpar">
+            </p>
+  
+    </form>
+</fieldset>
+</body>
+</html>
