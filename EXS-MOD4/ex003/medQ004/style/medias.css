@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+@media print {
+    *{
+        font-family: 'Courier New', Courier, monospace;
+
+    }
+
+    main{
+        background-color: lightgray;
+        border: 2px solid black;
+    }
+
+    h1{
+        color: black;
+        text-shadow: none;
+        font-size: 1.5em;
+    }
+
+
+    
+
+
+
+    #phone{ display: none;}
+    #tablet{ display: none;}
+    #impressora{ display: block;}
+    #pc{ display: none;}
+    #tv{ display: none;}
+    
+    
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px){
+    body{
+        background-image: url(../img/back-tablet.jpg);
+    }
+
+        #phone{ display: none;}
+        #tablet{ display: block;}
+        #impressora{ display: none;}
+        #pc{ display: none;}
+        #tv{ display: none;}
+    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    body{
+        background-image: url(../img/back-pc.jpg);
+    }
+
+    main{
+        width: 600px;
+        height: 400px;
+    }
+    
+    #phone{ display: none;}
+        #tablet{ display: none;}
+        #impressora{ display: none;}
+        #pc{ display: block;}
+        #tv{ display: none;}
+}
+
+@media screen and (min-width: 1200px){
+    body{
+        background-image: url(../img/back-tv.jpg);
+
+    }
+
+    main{
+        width: 800px;
+        height: 400px;
+    }
+    #phone{ display: none;}
+        #tablet{ display: none;}
+        #impressora{ display: none;}
+        #pc{ display: none;}
+        #tv{ display: block;}
+    
+}
